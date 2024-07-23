@@ -1,0 +1,264 @@
+.main-container {
+    font-family: 'Barlow Condensed';
+    color: #4d4d4d;
+}
+
+.main-container .header-container {
+    /* background: url('../img/portada.jpg'), linear-gradient(6deg, rgba(62,127,179,1) 0%, rgba(44,121,177,1) 30%, rgba(36,55,84,1) 60%); */
+    background: url('../img/portada.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.main-container .header-container .main-img {
+    width: 430px;
+}
+
+.main-container .header-container .text-container {
+    margin: 80px 0;
+    line-height: 30px;
+    gap: 65px;
+}
+
+.main-container .header-container .text-container .text {
+    font-size: 1.375rem;
+    font-weight: 300;
+}
+
+.main-container .header-container .text-container .text.text-slogan {
+    font-size: 2.5rem;
+    line-height: 44px;
+    font-style: italic;
+    font-weight: 600;
+    color: #aad9d9;
+    width: 32%;
+}
+
+.main-container .header-container .text-container .text.text-slogan p {
+    margin: 0;
+}
+
+.main-container .header-container .text-container .text.text-slogan .swift-up-text{
+    visibility: hidden;
+}
+
+.main-container .header-container .text-container .text.text-slogan .swift-up-text span {
+    display: inline-block;
+    overflow: hidden;
+    animation: .3s swift-up ease-in-out forwards;
+}
+
+.main-container .header-container .text-container .text.text-slogan .swift-up-text i {
+    position: relative;
+    top: 35px;
+    animation: .5s swift-up ease-in-out forwards;
+}
+
+.main-container .header-container .text-container .text.text-slogan::before,
+.main-container .header-container .text-container .text.text-slogan::after {
+    content: "\2022\00A0\2022\00A0\2022\00A0\2022";
+    font-style: normal;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+}
+
+.main-container .header-container .text-container .text.text-slogan .mobile-slogan{
+    display: none;
+}
+
+.main-container .content-container h2 {
+    font-size: 2.65rem;
+    font-weight: 600;
+    color: #243854;
+}
+
+.main-container .content-container h3 {
+    font-size: 1.55rem;
+    color: #243854;
+    font-weight: 600;
+}
+
+.main-container .content-container h3.key-features {
+    color: #aad9d9;
+    background-color: #243854;
+    padding: 5px 15px;
+    width: fit-content;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 25px;
+    font-size: 1.125rem;
+    letter-spacing: 2px;
+}
+
+.main-container .content-container h3.key-features:after,
+.main-container .content-container h3.key-features:before {
+    content: "";
+    position: absolute;
+    top: 31px;
+    border: 0 solid #243854;
+    border-bottom: 8px solid transparent;
+}
+
+.main-container .content-container h3.key-features:after {
+    border-left-width: 10px;
+    left: 50%
+}
+
+.main-container .content-container h3.key-features:before {
+    border-right-width: 10px;
+    right: 50%
+}
+
+.main-container .content-container p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.main-container .content-container ul {
+    padding-left: 0;
+}
+
+.main-container .content-container ul li {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.main-container .content-container ul li::marker {
+    content: "\F231  ";
+    font-family: bootstrap-icons !important;
+    color: #aad9d9;
+    font-size: 0.75rem;
+}
+
+.main-container .content-container ul.alternative li::marker {
+    color: #243854;
+}
+
+.main-container .content-container.contact-us-container h2,
+.main-container .content-container.contact-us-container h3,
+.main-container .content-container.contact-us-container .social-icons i {
+    color: #aad9d9;
+    text-align: center;
+}
+
+.main-container .content-container.contact-us-container .vr {
+    color: #fff;
+    opacity: 1;
+    padding: 0;
+    width: 2px;
+}
+
+.main-container .content-container.contact-us-container .vh {
+    min-height: 2px;
+    background: #fff;
+    margin: 35px 0;
+}
+
+.main-container .content-container.contact-us-container p,
+.main-container .content-container.contact-us-container a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.main-container .content-container.contact-us-container a:hover {
+    text-decoration: underline;
+}
+
+.main-container .content-container.contact-us-container .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.125rem;
+    margin-top: 35px;
+}
+
+.main-container .content-container.info-container p {
+    text-align: center;
+    line-height: 1.2;
+}
+
+.main-container .content-container.info-container .light-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.main-container .content-container.info-container .vr {
+    width: 3px;
+    padding: 0;
+    margin: 0 18px;
+}
+
+@media screen and (width < 992px) {
+    .main-container .header-container .main-img {
+        width: 100%;
+    }
+
+    .main-container .header-container .text-container {
+        margin: 90px 0 80px;
+    }
+
+    .main-container .header-container .text-container .text.text-slogan::before,
+    .main-container .header-container .text-container .text.text-slogan::after {
+        content: none;
+    }
+    
+    .main-container .header-container .text-container .text.text-slogan{
+        width: 100%;
+    }
+
+    .main-container .header-container .text-container .text.text-slogan .mobile-slogan{
+        display: block;
+    }
+
+    .main-container .header-container .text-container .text.text-slogan .swift-up-text{
+        display: none;
+    }
+    .break-br br {
+        display: none;
+    }
+
+    .main-container .content-container.info-container .light-box-mobile {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .main-container .content-container.info-container .light-box-mobile:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (width >=992px) {
+    .main-container .row {
+        gap: 35px;
+    }
+
+    .main-container .content-container.info-container .row {
+        gap: 0;
+    }
+
+    .main-container .content-container.info-container .light-box:nth-child(3),
+    .main-container .content-container.info-container .light-box:nth-child(6) {
+        margin-bottom: 0;
+    }
+
+    .main-container .content-container.info-container .light-box-mobile {
+        display: none;
+    }
+}
+
+@keyframes swift-up {
+    to {
+        top: 0;
+    }
+}
