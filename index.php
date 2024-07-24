@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU=" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -25,23 +26,17 @@
                             <img class="main-img" src="/assets/img/main-logo-negative.png" alt="">
                         </h1>
                     </div>
-                    <div class="col-12 d-flex flex-column flex-lg-row justify-content-center text-container">
+                    <div class="col-12 d-flex flex-column flex-lg-column justify-content-center text-container">
                         <div class="text text-slogan align-self-center">
-                            <p class="swift-up-text">Maximizing Business Potential through Specialized QA Consulting Services</p>
-                            <p class="mobile-slogan">
-                                Maximizing Business Potential <br>
-                                through Specialized <br>
-                                QA Consulting Services
-                            </p>
+                            <p class="swift-up-text">Maximizing your business potential through custom automation solutions</p>
+                            <!-- <p class="mobile-slogan">Maximizing your business potential through custom automation solutions</p> -->
                         </div>
                         <div class="text align-self-center">
                             <p>
-                                At Bright Apps LLC, we take pride in being <br>
-                                an Argentina-based QA consulting company <br>
-                                with over 15 years of qualied experience.
+                                At Bright Apps LLC, we take pride in being an Argentina-based QA automation solutions company <br>
+                                with over 15 years of qualified experience.
                                 <br><br>
-                                Our team is PMO certied and <br>
-                                holds ISTQB certications, ensuring the highest <br>
+                                Our team holds PMO and ISTQB international certifications, ensuring the highest <br>
                                 standards in quality assurance practices.
                             </p>
                         </div>
@@ -49,280 +44,237 @@
                 </div>
             </div>
         </div>
-        <div class="container mt-5 content-container">
+        <div class="container mt-2 content-container">
             <div class="row">
                 <div class="col-12 text-center">
                     <h2>WHAT WE DO</h2>
                 </div>
             </div>
-            <div class="row my-5 justify-content-center">
-                <div class="col-12 col-lg-4">
-                    <h3>Project and QA Health Assessment</h3>
-                    <p>
-                        Our Project and QA Health Assessment service ensures the
-                        optimal application of QA techniques by conducting a thorough
-                        evaluation of your project and QA processes. This comprehensive
-                        assessment serves as the foundation for identifying strengths,
-                        weaknesses, and areas for improvement in your current QA setup.
-                    </p>
-                    <h3 class="key-features">
-                        KEY FEATURES
-                    </h3>
-                    <ul>
-                        <li>In-depth analysis of existing QA processes.</li>
-                        <li>Identication of potential risks and areas for improvement.</li>
-                        <li>Evaluation of project documentation and requirements.</li>
-                        <li>Product owners interviews for an in-depth business understanding.</li>
-                        <li>Benchmarking against industry best practices.</li>
-                    </ul>
-                </div>
-                <div class="col-12 col-lg-4 align-content-center">
-                    <img class="rounded-4 w-100" src="/assets/img/foto01.png" alt="">
-                </div>
-            </div>
         </div>
-        <div class="container-fluid py-5 content-container" style="background-color: #f0f0f0;">
+        <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="container-fluid content-container align-content-center py-4 py-lg-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-lg-4 align-content-center">
+                                        <h3>Automation Framework Development and Implementation:</h3>
+                                        <p>
+                                            We design and develop and implement customized automation frameworks tailored to your specific needs. Our frameworks ensure seamless integration with your development process, enhancing the efficiency and reliability of your software testing.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-lg-4 align-content-center">
+                                        <img class="rounded-4 w-100" src="/assets/img/foto01.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide" style="background-color: #f0f0f0;">
+                        <div class="container-fluid content-container align-content-center py-4 py-lg-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-lg-4 order-1 order-lg-0 align-content-center">
+                                        <img class="rounded-4 w-100" src="/assets/img/foto02.png" alt="">
+                                    </div>
+                                    <div class="col-12 col-lg-4 order-0 order-lg-1 align-content-center">
+                                        <h3>CI/CD Pipeline Implementation:</h3>
+                                        <p>
+                                            We implement continuous integration and continuous deployment pipelines to automate your software automation testing process release. Using industry-leading tools like Jenkins, Docker, and AWS, we ensure fast, reliable, and repeatable deployment workflows.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="container-fluid content-container align-content-center py-4 py-lg-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-lg-4 align-content-center">
+                                        <h3>Comprehensive Automation for Diverse Testing Needs:</h3>
+                                        <p>
+                                            We provide automation for a wide variety of testing types, including UI, API, visual, integration, end-to-end (E2E), performance, and load testing. By covering these critical areas, we ensure your application is thoroughly vetted for functionality, performance, and user experience. This holistic approach reduces the risk of defects, enhances software quality, and accelerates your release cycles, enabling a more reliable and efficient development process.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-lg-4 align-content-center">
+                                        <img class="rounded-4 w-100" src="/assets/img/foto03.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide" style="background-color: #f0f0f0;">
+                        <div class="container-fluid content-container align-content-center py-4 py-lg-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-lg-4 order-1 order-lg-0 align-content-center">
+                                        <img class="rounded-4 w-100" src="/assets/img/foto04.png" alt="">
+                                    </div>
+                                    <div class="col-12 col-lg-4 order-0 order-lg-1 align-content-center">
+                                        <h3>Automated Regression, Smoke, and Sanity Test Suites:</h3>
+                                        <p>
+                                            We help you create tailored test suites that can be executed automatically based on predefined rules or manually on demand. For instance, you can run a quick smoke test with every service commit or execute a comprehensive regression suite upon environment deployment. This flexibility ensures that critical checks are performed at the right times, maintaining the integrity and stability of your application throughout the development lifecycle.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide" style="background-color: #aad9d9;">
+                        <div class="container-fluid content-container align-content-center py-4 py-lg-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-lg-4 align-content-center">
+                                        <h3>Continuous Monitoring and Reporting:</h3>
+                                        <p>
+                                            We implement continuous monitoring and reporting tools to provide real-time insights into your testing processes. With customized dashboards displaying the status of your application under test (AUT), you can track performance, identify issues early, and make data-driven decisions to improve your software quality. This comprehensive visibility ensures you stay informed and proactive throughout the development lifecycle.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-lg-4 align-content-center">
+                                        <img class="rounded-4 w-100" src="/assets/img/foto05.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="container-fluid pt-5 content-container tech-stack-container" style="background-color: #f0f0f0;">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-4 order-1 order-lg-0 align-content-center">
-                        <img class="rounded-4 w-100" src="/assets/img/foto02.png" alt="">
+                    <div class="col-12 text-center">
+                        <h2>TECH STACK</h2>
                     </div>
-                    <div class="col-12 col-lg-4 order-0 order-lg-1">
-                        <h3>QA Team Proling</h3>
+                    <div class="col-12 col-lg-8 mb-3">
                         <p>
-                            Our QA Team Proling service aims to assist you in assembling
-                            the ideal QA team tailored to match the specic requirements of
-                            your project. We understand that a well-matched QA team is
-                            crucial for project success, and we work closely with you to
-                            ensure the right skill sets are in place.
+                            Boost your development with our cutting-edge CI/CD automation services, ensuring seamless integration and rapid deployment. Our robust tech stack guarantees efficiency, reliability, and scalability. Empower your software lifecycle with state-of-the-art tools and expert implementation. Unlock unparalleled performance and innovation today.
                         </p>
-                        <h3 class="key-features">
-                            KEY FEATURES
-                        </h3>
-                        <ul>
-                            <li>Analysis of project requirements to identify required QA skills.</li>
-                            <li>Proposal of a customized QA team structure.</li>
-                            <li>Assess team members’ skills and pinpoint areas for improvement.</li>
-                            <li>Integration of diverse expertise to ensure test coverage.</li>
-                        </ul>
                     </div>
                 </div>
+                <?php
+                $logos_arr = [
+                    'Aws' => 'Aws.png',
+                    'Docker' => 'Docker.png',
+                    'Jenkins' => 'Jenkins.png',
+                    'Java' => 'Java.png',
+                    'Selenium' => 'Selenium.png',
+                    'Rest Assured' => 'RestAssured.png',
+                    'Intellij' => 'Intellij.png',
+                    'Appium' => 'Appium.png',
+                    'Slack' => 'Slack.png',
+                    'Whatsapp' => 'Whatsapp.png'
+                ];
+                $assets_dir = 'assets/img/';
+                $index = 0;
+                foreach ($logos_arr as $key => $value) {
+                    if ($index == 0 || $index == ((count($logos_arr) / 2))) {
+                        echo "<div class=\"row justify-content-center\"><div class=\"col-12 col-lg-8 tech-stack-box\">";
+                    }
+                    echo "<div class=\"tech-stack-box-content\"><img src=\"$assets_dir$value\"><span>$key</span></div>";
+                    if ($index == ((count($logos_arr) / 2) - 1) || $index == count($logos_arr) - 1) {
+                        echo "</div></div>";
+                    }
+                    $index++;
+                } ?>
             </div>
         </div>
-        <div class="container mt-5 content-container">
-            <div class="row my-5 justify-content-center">
-                <div class="col-12 col-lg-4">
-                    <h3>QA Process Implementation</h3>
-                    <p>
-                        We help you to integrate strong QA processes that guarantee a
-                        smooth and ecient quality assurance workow across your
-                        entire project journey. We closely collaborate with your team to
-                        outline and establish QA processes that maximize your team’s
-                        potential.
-
-                    </p>
-                    <h3 class="key-features">
-                        KEY FEATURES
-                    </h3>
-                    <ul>
-                        <li> Customized QA process development based on project needs.</li>
-                        <li>Development of documentation for clear process guidelines.</li>
-                        <li>Setup training roadmaps for seamless adoption of new QA processes.</li>
-                        <li>Integration of industry-recognized methodologies.</li>
-                    </ul>
-                </div>
-                <div class="col-12 col-lg-4 align-content-center">
-                    <img class="rounded-4 w-100" src="/assets/img/foto03.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid py-5 content-container" style="background-color: #f0f0f0;">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-4 order-1 order-lg-0 align-content-center">
-                        <img class="rounded-4 w-100" src="/assets/img/foto04.png" alt="">
-                    </div>
-                    <div class="col-12 col-lg-4 order-0 order-lg-1">
-                        <h3>Metrics Monitoring</h3>
-                        <p>
-                            We utilize methodologies to track key performance indicators
-                            empowering your team to make informed decisions about
-                            overall quality of your projects.
-                        </p>
-                        <h3 class="key-features">
-                            KEY FEATURES
-                        </h3>
-                        <ul class="alternative">
-                            <li>Real-time monitoring of QA metrics.</li>
-                            <li>Analysis and interpretation of performance data.</li>
-                            <li>Reporting for insights and actionable recommendations.</li>
-                            <li>Customized dashboards for real-time visibility.</li>
-                            <li>Benchmarking against industry standards.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid py-5 content-container" style="background-color: #aad9d9;">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-4">
-                        <h3>Learning Path Design</h3>
-                        <p>
-                            Elevate your QA team’s capabilities. We collaborate with you to
-                            establish a tailored learning path, ensuring continuous skill
-                            development and alignment with the latest industry best
-                            practices. Invest in the growth and adaptability of your
-                            QA team.
-                        </p>
-                        <h3 class="key-features">
-                            KEY FEATURES
-                        </h3>
-                        <ul class="alternative">
-                            <li>Assessment of existing skill sets and knowledge gaps.</li>
-                            <li>Development of a personalized learning roadmap.</li>
-                            <li>Recommendations for relevant training programs and certications.</li>
-                            <li>Assessments to track individual and team progress.</li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-lg-4 align-content-center">
-                        <img class="rounded-4 w-100" src="/assets/img/foto05.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid py-5 content-container info-container" style="background-color: #f0f0f0;">
+        <div class="container-fluid pt-2 pb-5 pt-lg-5 content-container info-container" style="background-color: #f0f0f0;">
             <div class="container">
                 <div class="row justify-content-center mb-5">
-                    <div class="col-8 col-lg-4">
-                        <img class="w-100" src="/assets/img/main-logo.png" alt="">
+                    <div class="col-12 col-lg-4">
+                        <h2 class="text-center">Automation Key Benefits</h2>
                     </div>
                 </div>
                 <div class="row text-center">
                     <div class="col-12 col-lg-4 offset-lg-2 d-none d-lg-block">
                         <div class="light-box">
-                            <h3>Who We Are</h3>
+                            <h3>Focus on What Matters:</h3>
                             <p>
-                                Argentina-Based Excellence: Our roots are in Argentina, and our
-                                services reach beyond borders, bringing international expertise
-                                to your doorstep.
-                                <br>
-                                15+ Years of Expertise: With over a decade and a half of
-                                experience, we’ve honed our skills to deliver top-notch quality
-                                assurance services.
-                                <br>
-                                PMO and ISTQB Certied: Our team is equipped with Project
-                                Management Oce (PMO) and International Software Testing
-                                Qualications Board (ISTQB) certications, demonstrating our
-                                commitment to excellence.
+                                In the automation planning phase, we ensure that we start with the most critical features of your application. <br> This approach allows us to build the automation suite from the ground up, focusing on what matters most and maximizing the impact of our efforts.
                             </p>
                         </div>
                         <div class="light-box">
-                            <h3>Condence in Platform Quality</h3>
+                            <h3>Accelerate Release Cycles:</h3>
                             <p>
-                                Our expertise instills condence in the quality of your platform, <br>
-                                ensuring a robust and reliable product for your users.
+                                Speed up your software delivery process with continuous integration and continuous deployment, ensuring faster time-to-market.
                             </p>
                         </div>
                         <div class="light-box">
-                            <h3>Accelerated Releases</h3>
+                            <h3>Identify Issues Early in <br> the Development Cycle:</h3>
                             <p>
-                                Experience faster and more ecient release cycles, helping you <br>
-                                stay ahead in today’s dynamic market.
+                                Run comprehensive UI and API test suites with every deployment to your test environments, enabling rapid detection and resolution of integration issues.
                             </p>
                         </div>
                     </div>
                     <div class="vr d-none d-lg-block"></div>
                     <div class="col-12 col-lg-4 d-none d-lg-block">
                         <div class="light-box">
-                            <h3>Why Us?</h3>
+                            <h3>Increment Consistency and <br> Reduce Manual Effort:</h3>
                             <p>
-                                Choosing Bright Apps LLC as your QA partner ensures: <br>
-                                <strong>Guaranteed and Measurable Results:</strong> <br>
-                                We stand by our commitment to delivering results that are not
-                                only guaranteed but also measurable, providing you with clear
-                                insights into the quality of your project. <br>
-                                <strong>Tailored QA Processes:</strong> <br>
-                                We specialize in tailoring effective quality assurance processes
-                                to suit your project’s unique requirements. Whether you need to
-                                establish a new QA process or enhance an
+                                Ensure consistent test runs by letting automation handle the tests. Minimize the manual effort required for testing and deployment, allowing your team to focus on higher-value tasks.
                             </p>
                         </div>
                         <div class="light-box">
-                            <h3>Tailored Approach</h3>
+                            <h3>Cost Savings:</h3>
                             <p>
-                                We understand that each project is unique. Our tailored <br>
-                                approach ensures that our QA strategies align seamlessly with <br>
-                                your project’s specics.
+                                Enhance quality while reducing costs through efficient automation processes. By minimizing manual efforts and accelerating release cycles, your business can achieve significant savings on both time and resources.
                             </p>
                         </div>
                         <div class="light-box">
-                            <h3>Cost Savings</h3>
+                            <h3>Scalable and Robust Infrastructure:</h3>
                             <p>
-                                Through our ecient processes and tailored approaches, we not <br>
-                                only enhance quality but also help you save on costs.
+                                Utilize scalable and robust infrastructure with cloud tools, ensuring your testing environment can grow on demand.
+                            </p>
+                            <h3>Faster Insights and Reporting:</h3>
+                            <p>
+                                Gain quicker insights into your AUT status with customized dashboards and reports, enabling data-driven decision-making.
                             </p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-4 d-block d-lg-none">
                         <div class="light-box-mobile">
-                            <h3>Who We Are</h3>
+                            <h3>Focus on What Matters:</h3>
                             <p>
-                                Argentina-Based Excellence: Our roots are in Argentina, and our
-                                services reach beyond borders, bringing international expertise
-                                to your doorstep.
-                                <br>
-                                15+ Years of Expertise: With over a decade and a half of
-                                experience, we’ve honed our skills to deliver top-notch quality
-                                assurance services.
-                                <br>
-                                PMO and ISTQB Certied: Our team is equipped with Project
-                                Management Oce (PMO) and International Software Testing
-                                Qualications Board (ISTQB) certications, demonstrating our
-                                commitment to excellence.
+                                In the automation planning phase, we ensure that we start with the most critical features of your application. <br> This approach allows us to build the automation suite from the ground up, focusing on what matters most and maximizing the impact of our efforts.
                             </p>
                         </div>
                         <div class="light-box-mobile">
-                            <h3>Why Us?</h3>
+                            <h3>Accelerate Release Cycles:</h3>
                             <p>
-                                Choosing Bright Apps LLC as your QA partner ensures: <br>
-                                <strong>Guaranteed and Measurable Results:</strong> <br>
-                                We stand by our commitment to delivering results that are not
-                                only guaranteed but also measurable, providing you with clear
-                                insights into the quality of your project. <br>
-                                <strong>Tailored QA Processes:</strong> <br>
-                                We specialize in tailoring effective quality assurance processes
-                                to suit your project’s unique requirements. Whether you need to
-                                establish a new QA process or enhance an
+                                Speed up your software delivery process with continuous integration and continuous deployment, ensuring faster time-to-market.
+                            </p>
+                        </div>
+                        <div class="light-box-mobile">
+                            <h3>Identify Issues Early in <br> the Development Cycle:</h3>
+                            <p>
+                                Run comprehensive UI and API test suites with every deployment to your test environments, enabling rapid detection and resolution of integration issues.
                             </p>
                         </div>
                         <div class="light-box-mobile break-br">
-                            <h3>Condence in Platform Quality</h3>
+                            <h3>Increment Consistency and Reduce Manual Effort:</h3>
                             <p>
-                                Our expertise instills condence in the quality of your platform, <br>
-                                ensuring a robust and reliable product for your users.
+                                Ensure consistent test runs by letting automation handle the tests. Minimize the manual effort required for testing and deployment, allowing your team to focus on higher-value tasks.
                             </p>
                         </div>
                         <div class="light-box-mobile break-br">
-                            <h3>Accelerated Releases</h3>
+                            <h3>Cost Savings:</h3>
                             <p>
-                                Experience faster and more ecient release cycles, helping you <br>
-                                stay ahead in today’s dynamic market.
+                                Enhance quality while reducing costs through efficient automation processes. By minimizing manual efforts and accelerating release cycles, your business can achieve significant savings on both time and resources.
                             </p>
                         </div>
                         <div class="light-box-mobile break-br">
-                            <h3>Tailored Approach</h3>
+                            <h3>Scalable and Robust Infrastructure:</h3>
                             <p>
-                                We understand that each project is unique. Our tailored <br>
-                                approach ensures that our QA strategies align seamlessly with <br>
-                                your project’s specics.
+                                Utilize scalable and robust infrastructure with cloud tools, ensuring your testing environment can grow on demand.
                             </p>
                         </div>
                         <div class="light-box-mobile break-br">
-                            <h3>Cost Savings</h3>
+                            <h3>Faster Insights and Reporting:</h3>
                             <p>
-                                Through our ecient processes and tailored approaches, we not <br>
-                                only enhance quality but also help you save on costs.
+                                Gain quicker insights into your AUT status with customized dashboards and reports, enabling data-driven decision-making.
                             </p>
                         </div>
                     </div>
@@ -355,6 +307,8 @@
             </div>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw=" crossorigin="anonymous"></script>
     <script src="/assets/js/script.js"></script>
 </body>
 

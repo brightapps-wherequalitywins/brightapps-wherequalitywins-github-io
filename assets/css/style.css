@@ -4,7 +4,6 @@
 }
 
 .main-container .header-container {
-    /* background: url('../img/portada.jpg'), linear-gradient(6deg, rgba(62,127,179,1) 0%, rgba(44,121,177,1) 30%, rgba(36,55,84,1) 60%); */
     background: url('../img/portada.jpg');
     background-position: center;
     background-size: cover;
@@ -19,7 +18,7 @@
 .main-container .header-container .text-container {
     margin: 80px 0;
     line-height: 30px;
-    gap: 65px;
+    gap: 30px;
 }
 
 .main-container .header-container .text-container .text {
@@ -33,14 +32,14 @@
     font-style: italic;
     font-weight: 600;
     color: #aad9d9;
-    width: 32%;
+    width: 45%;
 }
 
 .main-container .header-container .text-container .text.text-slogan p {
     margin: 0;
 }
 
-.main-container .header-container .text-container .text.text-slogan .swift-up-text{
+.main-container .header-container .text-container .text.text-slogan .swift-up-text {
     visibility: hidden;
 }
 
@@ -64,10 +63,6 @@
     letter-spacing: 4px;
 }
 
-.main-container .header-container .text-container .text.text-slogan .mobile-slogan{
-    display: none;
-}
-
 .main-container .content-container h2 {
     font-size: 2.65rem;
     font-weight: 600;
@@ -78,37 +73,6 @@
     font-size: 1.55rem;
     color: #243854;
     font-weight: 600;
-}
-
-.main-container .content-container h3.key-features {
-    color: #aad9d9;
-    background-color: #243854;
-    padding: 5px 15px;
-    width: fit-content;
-    border-radius: 4px;
-    position: relative;
-    margin-top: 25px;
-    font-size: 1.125rem;
-    letter-spacing: 2px;
-}
-
-.main-container .content-container h3.key-features:after,
-.main-container .content-container h3.key-features:before {
-    content: "";
-    position: absolute;
-    top: 31px;
-    border: 0 solid #243854;
-    border-bottom: 8px solid transparent;
-}
-
-.main-container .content-container h3.key-features:after {
-    border-left-width: 10px;
-    left: 50%
-}
-
-.main-container .content-container h3.key-features:before {
-    border-right-width: 10px;
-    right: 50%
 }
 
 .main-container .content-container p {
@@ -135,6 +99,28 @@
 
 .main-container .content-container ul.alternative li::marker {
     color: #243854;
+}
+
+.main-container .content-container.tech-stack-container .tech-stack-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+.main-container .content-container.tech-stack-container .tech-stack-box .tech-stack-box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container .content-container.tech-stack-container .tech-stack-box img {
+    max-width: 100px;
+}
+
+.main-container .content-container.tech-stack-container .tech-stack-box span {
+    color: #243854;
+    font-size: 1.125rem;
+    text-align: center;
 }
 
 .main-container .content-container.contact-us-container h2,
@@ -202,25 +188,18 @@
     }
 
     .main-container .header-container .text-container {
-        margin: 90px 0 80px;
+        margin: 60px 0;
     }
 
     .main-container .header-container .text-container .text.text-slogan::before,
     .main-container .header-container .text-container .text.text-slogan::after {
         content: none;
     }
-    
-    .main-container .header-container .text-container .text.text-slogan{
+
+    .main-container .header-container .text-container .text.text-slogan {
         width: 100%;
     }
 
-    .main-container .header-container .text-container .text.text-slogan .mobile-slogan{
-        display: block;
-    }
-
-    .main-container .header-container .text-container .text.text-slogan .swift-up-text{
-        display: none;
-    }
     .break-br br {
         display: none;
     }
@@ -234,6 +213,18 @@
 
     .main-container .content-container.info-container .light-box-mobile:last-child {
         margin-bottom: 0;
+    }
+
+    .main-container .content-container.tech-stack-container .tech-stack-box {
+        gap: 0;
+    }
+
+    .main-container .content-container.tech-stack-container .tech-stack-box .tech-stack-box-content {
+        margin-bottom: 50px;
+    }
+
+    .main-container .content-container.tech-stack-container .tech-stack-box img {
+        max-width: 75px;
     }
 
 }
