@@ -29,9 +29,8 @@
                     <div class="col-12 d-flex flex-column flex-lg-column justify-content-center text-container">
                         <div class="text text-slogan align-self-center">
                             <p class="swift-up-text">Maximizing your business potential through custom automation solutions</p>
-                            <!-- <p class="mobile-slogan">Maximizing your business potential through custom automation solutions</p> -->
                         </div>
-                        <div class="text align-self-center">
+                        <div class="text text-slogan-description align-self-center break-br">
                             <p>
                                 At Bright Apps LLC, we take pride in being an Argentina-based QA automation solutions company <br>
                                 with over 15 years of qualified experience.
@@ -51,7 +50,7 @@
                 </div>
             </div>
         </div>
-        <section class="splide" aria-label="Splide Basic HTML Example">
+        <section id="main-slide" class="splide">
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
@@ -64,59 +63,8 @@
                                             We design and develop and implement customized automation frameworks tailored to your specific needs. Our frameworks ensure seamless integration with your development process, enhancing the efficiency and reliability of your software testing.
                                         </p>
                                     </div>
-                                    <div class="col-12 col-lg-4 align-content-center">
-                                        <img class="rounded-4 w-100" src="/assets/img/foto01.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide" style="background-color: #f0f0f0;">
-                        <div class="container-fluid content-container align-content-center py-4 py-lg-5">
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-12 col-lg-4 order-1 order-lg-0 align-content-center">
-                                        <img class="rounded-4 w-100" src="/assets/img/foto02.png" alt="">
-                                    </div>
-                                    <div class="col-12 col-lg-4 order-0 order-lg-1 align-content-center">
-                                        <h3>CI/CD Pipeline Implementation:</h3>
-                                        <p>
-                                            We implement continuous integration and continuous deployment pipelines to automate your software automation testing process release. Using industry-leading tools like Jenkins, Docker, and AWS, we ensure fast, reliable, and repeatable deployment workflows.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="container-fluid content-container align-content-center py-4 py-lg-5">
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-12 col-lg-4 align-content-center">
-                                        <h3>Comprehensive Automation for Diverse Testing Needs:</h3>
-                                        <p>
-                                            We provide automation for a wide variety of testing types, including UI, API, visual, integration, end-to-end (E2E), performance, and load testing. By covering these critical areas, we ensure your application is thoroughly vetted for functionality, performance, and user experience. This holistic approach reduces the risk of defects, enhances software quality, and accelerates your release cycles, enabling a more reliable and efficient development process.
-                                        </p>
-                                    </div>
-                                    <div class="col-12 col-lg-4 align-content-center">
-                                        <img class="rounded-4 w-100" src="/assets/img/foto03.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide" style="background-color: #f0f0f0;">
-                        <div class="container-fluid content-container align-content-center py-4 py-lg-5">
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-12 col-lg-4 order-1 order-lg-0 align-content-center">
-                                        <img class="rounded-4 w-100" src="/assets/img/foto04.png" alt="">
-                                    </div>
-                                    <div class="col-12 col-lg-4 order-0 order-lg-1 align-content-center">
-                                        <h3>Automated Regression, Smoke, and Sanity Test Suites:</h3>
-                                        <p>
-                                            We help you create tailored test suites that can be executed automatically based on predefined rules or manually on demand. For instance, you can run a quick smoke test with every service commit or execute a comprehensive regression suite upon environment deployment. This flexibility ensures that critical checks are performed at the right times, maintaining the integrity and stability of your application throughout the development lifecycle.
-                                        </p>
+                                    <div class="col-12 col-lg-4 align-content-center text-center text-lg-start">
+                                        <img class="carrousel-img" src="/assets/img/foto01.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -127,13 +75,64 @@
                             <div class="container">
                                 <div class="row justify-content-center">
                                     <div class="col-12 col-lg-4 align-content-center">
+                                        <h3>CI/CD Pipeline Implementation:</h3>
+                                        <p>
+                                            We implement continuous integration and continuous deployment pipelines to automate your software automation testing process release. Using industry-leading tools like Jenkins, Docker, and AWS, we ensure fast, reliable, and repeatable deployment workflows.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-lg-4 align-content-center text-center text-lg-start">
+                                        <img class="carrousel-img" src="/assets/img/foto02.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide" >
+                        <div class="container-fluid content-container align-content-center py-4 py-lg-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-lg-4 align-content-center">
+                                        <h3>Comprehensive Automation for Diverse Testing Needs:</h3>
+                                        <p>
+                                            We provide automation for a wide variety of testing types, including UI, API, visual, integration, end-to-end (E2E), performance, and load testing. By covering these critical areas, we ensure your application is thoroughly vetted for functionality, performance, and user experience. This holistic approach reduces the risk of defects, enhances software quality, and accelerates your release cycles, enabling a more reliable and efficient development process.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-lg-4 align-content-center text-center text-lg-start">
+                                        <img class="carrousel-img" src="/assets/img/foto03.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide" style="background-color: #aad9d9;">
+                        <div class="container-fluid content-container align-content-center py-4 py-lg-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-lg-4 align-content-center">
+                                        <h3>Automated Regression, Smoke, and Sanity Test Suites:</h3>
+                                        <p>
+                                            We help you create tailored test suites that can be executed automatically based on predefined rules or manually on demand. For instance, you can run a quick smoke test with every service commit or execute a comprehensive regression suite upon environment deployment. This flexibility ensures that critical checks are performed at the right times, maintaining the integrity and stability of your application throughout the development lifecycle.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-lg-4 align-content-center text-center text-lg-start">
+                                        <img class="carrousel-img" src="/assets/img/foto04.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="container-fluid content-container align-content-center py-4 py-lg-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-lg-4 align-content-center">
                                         <h3>Continuous Monitoring and Reporting:</h3>
                                         <p>
                                             We implement continuous monitoring and reporting tools to provide real-time insights into your testing processes. With customized dashboards displaying the status of your application under test (AUT), you can track performance, identify issues early, and make data-driven decisions to improve your software quality. This comprehensive visibility ensures you stay informed and proactive throughout the development lifecycle.
                                         </p>
                                     </div>
-                                    <div class="col-12 col-lg-4 align-content-center">
-                                        <img class="rounded-4 w-100" src="/assets/img/foto05.png" alt="">
+                                    <div class="col-12 col-lg-4 align-content-center text-center text-lg-start">
+                                        <img class="carrousel-img" src="/assets/img/foto05.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -142,7 +141,7 @@
                 </ul>
             </div>
         </section>
-        <div class="container-fluid pt-5 content-container tech-stack-container" style="background-color: #f0f0f0;">
+        <div class="container-fluid pt-5 pb-2 pb-lg-5 content-container tech-stack-container" style="background-color: #f0f0f0;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
@@ -171,17 +170,35 @@
                 $index = 0;
                 foreach ($logos_arr as $key => $value) {
                     if ($index == 0 || $index == ((count($logos_arr) / 2))) {
-                        echo "<div class=\"row justify-content-center\"><div class=\"col-12 col-lg-8 tech-stack-box\">";
+                        echo "<div class=\"row justify-content-center\"><div class=\"col-12 col-lg-8 d-none d-lg-flex tech-stack-box\">";
                     }
                     echo "<div class=\"tech-stack-box-content\"><img src=\"$assets_dir$value\"><span>$key</span></div>";
                     if ($index == ((count($logos_arr) / 2) - 1) || $index == count($logos_arr) - 1) {
                         echo "</div></div>";
                     }
                     $index++;
-                } ?>
+                }
+                ?>
+                <div class="row d-lg-none">
+                    <div class="col-12">
+                        <section id="tech-stack-carrousel" class="splide">
+                            <div class="splide__track">
+                                <ul class="splide__list tech-stack-box">
+                                    <?php
+                                    $index = 0;
+                                    foreach ($logos_arr as $key => $value) {
+                                        echo "<li class=\"splide__slide tech-stack-box-content\"><img src=\"$assets_dir$value\"><span>$key</span></li>";
+                                        $index++;
+                                    }
+                                    ?>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="container-fluid pt-2 pb-5 pt-lg-5 content-container info-container" style="background-color: #f0f0f0;">
+        <div class="container-fluid pt-2 pb-5 pt-lg-5 content-container info-container" style="background-color: #aad9d9;">
             <div class="container">
                 <div class="row justify-content-center mb-5">
                     <div class="col-12 col-lg-4">
@@ -283,8 +300,8 @@
         </div>
         <div class="container-fluid py-5 content-container contact-us-container" style="background-color: #243854;">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-4 align-self-center text-center mb-lg-0 mb-5">
+                <div class="row align-content-center">
+                    <div class="col-12 col-lg-4 offset-lg-2 mb-lg-0 mb-5 align-content-center">
                         <h2>CONTACT US</h2>
                     </div>
                     <div class="vr d-none d-lg-block"></div>
@@ -309,6 +326,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js" integrity="sha256-A+2opyqhvbBV8tbd9mIM8w9zvvMYHOawY03BQRtq7Kw=" crossorigin="anonymous"></script>
     <script src="/assets/js/script.js"></script>
 </body>
 

@@ -43,7 +43,27 @@ setTimeout(() => {
     });
 }, 200);
 
-document.addEventListener('DOMContentLoaded', function() {
-    var splide = new Splide('.splide');
+document.addEventListener('DOMContentLoaded', function () {
+    var splide = new Splide('#main-slide', {
+        arrows: false,
+    });
+    if (window.innerWidth < 992) {
+        splide.on('visible', (visible) => {
+            let child = document.querySelector('#main-slide .splide__slide.is-active.is-visible .container');
+            let parent = document.querySelector('#main-slide .splide__list');
+            parent.style.transition = "0.5s ease";
+            parent.style.height = `${child.offsetHeight + 60}px`;
+        });
+    }
     splide.mount();
+
+    new Splide('#tech-stack-carrousel', {
+        type: 'loop',
+        autoWidth: true,
+        autoScroll: {
+            speed: 0.5,
+        },
+        arrows: false,
+        pagination: false
+    }).mount(window.splide.Extensions);
 });
