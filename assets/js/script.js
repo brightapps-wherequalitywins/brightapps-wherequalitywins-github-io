@@ -45,7 +45,8 @@ setTimeout(() => {
 
 document.addEventListener('DOMContentLoaded', function () {
     var splide = new Splide('#main-slide', {
-        arrows: false,
+        autoplay: true,
+        type: 'loop'
     });
     if (window.innerWidth < 992) {
         splide.on('visible', (visible) => {
