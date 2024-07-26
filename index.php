@@ -54,7 +54,7 @@
             <div class="splide__slider">
                 <div class="splide__track">
                     <ul class="splide__list">
-                        <li class="splide__slide" data-splide-interval="4000">
+                        <li class="splide__slide" data-splide-interval="8000">
                             <div class="container-fluid content-container align-content-center py-4 py-lg-5">
                                 <div class="container">
                                     <div class="row justify-content-center">
@@ -71,7 +71,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="splide__slide" data-splide-interval="4000" style="background-color: #aad9d9;">
+                        <li class="splide__slide" data-splide-interval="8000" style="background-color: #aad9d9;">
                             <div class="container-fluid content-container align-content-center py-4 py-lg-5">
                                 <div class="container">
                                     <div class="row justify-content-center">
@@ -88,7 +88,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="splide__slide" data-splide-interval="4000">
+                        <li class="splide__slide" data-splide-interval="8000">
                             <div class="container-fluid content-container align-content-center py-4 py-lg-5">
                                 <div class="container">
                                     <div class="row justify-content-center">
@@ -105,7 +105,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="splide__slide" data-splide-interval="4000" style="background-color: #aad9d9;">
+                        <li class="splide__slide" data-splide-interval="8000" style="background-color: #aad9d9;">
                             <div class="container-fluid content-container align-content-center py-4 py-lg-5">
                                 <div class="container">
                                     <div class="row justify-content-center">
@@ -122,7 +122,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="splide__slide" data-splide-interval="4000">
+                        <li class="splide__slide" data-splide-interval="8000">
                             <div class="container-fluid content-container align-content-center py-4 py-lg-5">
                                 <div class="container">
                                     <div class="row justify-content-center">
@@ -142,12 +142,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="splide__progress">
-                <div class="splide__progress__bar">
-                </div>
-            </div>
         </section>
-        <div class="container-fluid pt-5 pb-2 pb-lg-5 content-container tech-stack-container" style="background-color: #f0f0f0;">
+        <div class="container-fluid pt-5 content-container tech-stack-container" style="background-color: #f0f0f0;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
@@ -159,6 +155,10 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="container-fluid pb-2 pb-lg-5 content-container tech-stack-container" style="background-color: #f0f0f0;">
+            <div class="container px-0">
                 <?php
                 $logos_arr = [
                     'Aws' => 'Aws.png',
@@ -185,8 +185,8 @@
                     $index++;
                 }
                 ?>
-                <div class="row d-lg-none">
-                    <div class="col-12">
+                <div class="row d-lg-none px-0">
+                    <div class="col-12 px-0">
                         <section id="tech-stack-carrousel" class="splide">
                             <div class="splide__track">
                                 <ul class="splide__list tech-stack-box">

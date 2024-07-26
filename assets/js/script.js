@@ -1,27 +1,3 @@
-if (window.innerWidth >= 992) {
-    setTimeout(() => {
-        let $elements = document.querySelectorAll(".light-box");
-
-        $elements.forEach((element, index, parent) => {
-            let elementHeight = element.offsetHeight;
-            let halfarraylength = parent.length / 2;
-            if (index >= halfarraylength) {
-                let parelementHeight = parent[index - 3].offsetHeight;
-                if (parelementHeight > elementHeight) {
-                    element.style.height = `${parelementHeight}px`;
-                }
-            }
-            if (index < halfarraylength) {
-                let parelementHeight = parent[index + 3].offsetHeight;
-                if (parelementHeight > elementHeight) {
-                    element.style.height = `${parelementHeight}px`;
-                }
-            }
-            return true;
-        });
-    }, 100);
-}
-
 setTimeout(() => {
     const swiftUpElements = document.querySelectorAll('.swift-up-text');
     swiftUpElements.forEach(elem => {
@@ -43,19 +19,59 @@ setTimeout(() => {
     });
 }, 200);
 
-document.addEventListener('DOMContentLoaded', function () {
-    var splide = new Splide('#main-slide', {
+document.addEventListener('DOMContentLoaded', documentReady);
+window.addEventListener('resize', documentResize);
+
+function documentResize() {
+    if (window.innerWidth >= 992) {
+        setTimeout(() => {
+            let $elements = document.querySelectorAll(".light-box");
+
+            $elements.forEach((element, index, parent) => {
+                let elementHeight = element.offsetHeight;
+                let halfarraylength = parent.length / 2;
+                if (index >= halfarraylength) {
+                    let parelementHeight = parent[index - 3].offsetHeight;
+                    if (parelementHeight > elementHeight) {
+                        element.style.height = `${parelementHeight}px`;
+                    }
+                }
+                if (index < halfarraylength) {
+                    let parelementHeight = parent[index + 3].offsetHeight;
+                    if (parelementHeight > elementHeight) {
+                        element.style.height = `${parelementHeight}px`;
+                    }
+                }
+                return true;
+            });
+        }, 100);
+
+        let parent = document.querySelector('#main-slide .splide__list');
+        parent.style.height = "100%";
+    }
+}
+
+function documentReady() {
+    var arg = {
+        arrows: true,
         autoplay: true,
-        type: 'loop'
-    });
-    if (window.innerWidth < 992) {
-        splide.on('visible', (visible) => {
+        type: 'loop',
+        breakpoints: {
+            992: {
+                autoplay: false,
+                arrows: false
+            },
+        }
+    };
+    var splide = new Splide('#main-slide', arg);
+    splide.on('visible', (visible) => {
+        if (window.innerWidth < 992) {
             let child = document.querySelector('#main-slide .splide__slide.is-active.is-visible .container');
             let parent = document.querySelector('#main-slide .splide__list');
             parent.style.transition = "0.5s ease";
             parent.style.height = `${child.offsetHeight + 60}px`;
-        });
-    }
+        }
+    });
     splide.mount();
 
     new Splide('#tech-stack-carrousel', {
@@ -67,4 +83,4 @@ document.addEventListener('DOMContentLoaded', function () {
         arrows: false,
         pagination: false
     }).mount(window.splide.Extensions);
-});
+}
