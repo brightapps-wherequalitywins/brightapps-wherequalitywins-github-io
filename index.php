@@ -27,7 +27,7 @@
                         </h1>
                     </div>
                     <div class="col-12 d-flex flex-column flex-lg-column justify-content-center text-container">
-                        <div class="text text-slogan align-self-center">
+                        <div class="text text-slogan align-self-center mb-3">
                             <p class="swift-up-text">Maximizing your business potential through custom automation solutions</p>
                         </div>
                         <div class="text text-slogan-description align-self-center break-br">
@@ -143,13 +143,13 @@
                 </div>
             </div>
         </section>
-        <div class="container-fluid pt-5 content-container tech-stack-container" style="background-color: #f0f0f0;">
+        <div class="container-fluid pt-4 content-container tech-stack-container" style="background-color: #f0f0f0;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
                         <h2>TECH STACK</h2>
                     </div>
-                    <div class="col-12 col-lg-8 mb-3">
+                    <div class="col-12 col-lg-8">
                         <p>
                             Boost your development with our cutting-edge CI/CD automation services, ensuring seamless integration and rapid deployment. Our robust tech stack guarantees efficiency, reliability, and scalability. Empower your software lifecycle with state-of-the-art tools and expert implementation. Unlock unparalleled performance and innovation today.
                         </p>
@@ -157,7 +157,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid pb-2 pb-lg-5 content-container tech-stack-container" style="background-color: #f0f0f0;">
+        <div class="container-fluid pb-4 content-container tech-stack-container" style="background-color: #f0f0f0;">
             <div class="container px-0">
                 <?php
                 $logos_arr = [
@@ -204,9 +204,9 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid pt-2 pb-5 pt-lg-5 content-container info-container" style="background-color: #aad9d9;">
+        <div class="container-fluid py-4 content-container info-container" style="background-color: #aad9d9;">
             <div class="container">
-                <div class="row justify-content-center mb-5">
+                <div class="row justify-content-center mb-4">
                     <div class="col-12 col-lg-4">
                         <h2 class="text-center">Automation Key Benefits</h2>
                     </div>
@@ -304,7 +304,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid py-5 content-container contact-us-container" style="background-color: #243854;">
+        <div class="container-fluid py-4 content-container contact-us-container" style="background-color: #243854;">
             <div class="container">
                 <div class="row align-content-center">
                     <div class="col-12 col-lg-4 offset-lg-2 mb-lg-0 mb-5 align-content-center">

@@ -16,9 +16,8 @@
 }
 
 .main-container .header-container .text-container {
-    margin: 80px 0;
+    margin: 40px 0;
     line-height: 30px;
-    gap: 30px;
 }
 
 .main-container .header-container .text-container .text {
@@ -189,7 +188,7 @@
     }
 
     .main-container .header-container .text-container {
-        margin: 60px 0;
+        margin: 30px 0;
     }
 
     .main-container .header-container .text-container .text.text-slogan::before,
@@ -224,10 +223,6 @@
         gap: 0;
     }
 
-    .main-container .content-container.tech-stack-container .tech-stack-box .tech-stack-box-content {
-        margin-bottom: 50px;
-    }
-
     .main-container .content-container.tech-stack-container .tech-stack-box img {
         max-width: 75px;
     }
@@ -235,10 +230,6 @@
 }
 
 @media screen and (width >=992px) {
-    .main-container .row {
-        gap: 35px;
-    }
-
     .main-container .content-container.contact-us-container .row,
     .main-container .content-container.info-container .row {
         gap: 0;

@@ -19,7 +19,10 @@ setTimeout(() => {
     });
 }, 200);
 
-document.addEventListener('DOMContentLoaded', documentReady);
+document.addEventListener('DOMContentLoaded', ()=>{
+    documentReady();
+    documentResize();
+});
 window.addEventListener('resize', documentResize);
 
 function documentResize() {
