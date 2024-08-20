@@ -13,11 +13,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU=" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <div class="main-container container-fluid px-0">
+        <div class="language-button-wrapper">
+            <a href="/es/home" class="language-button">
+                <span>Español</span>
+                <img src="/assets/img/spanish.png" alt="">
+            </a>
+        </div>
         <div class="container-fluid pt-5 header-container">
             <div class="container">
                 <div class="row text-center">

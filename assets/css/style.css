@@ -3,6 +3,33 @@
     color: #4d4d4d;
 }
 
+.main-container .language-button-wrapper{
+    position: fixed;
+    right: 15%;
+    z-index: 10;
+}
+
+.main-container .language-button-wrapper .language-button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    padding: 10px 16px;
+    background-color: #2d5b85;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-decoration: none;
+}
+
+.main-container .language-button-wrapper .language-button:hover{
+    text-decoration: underline;
+}
+
+.main-container .language-button-wrapper .language-button img{
+    width: 20px;
+    height: 20px;
+}
+
 .main-container .header-container {
     background: url('../img/portada.jpg');
     background-position: center;
@@ -183,6 +210,10 @@
 }
 
 @media screen and (width < 992px) {
+    .main-container .language-button-wrapper{
+        right: 30px;
+    }
+
     .main-container .header-container .main-img {
         width: 100%;
     }
