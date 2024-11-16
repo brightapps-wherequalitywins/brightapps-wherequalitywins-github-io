@@ -2,6 +2,6 @@
 ├── .nojekyll
 ├── index.html
 ├── es/home
-│   ├── home-en.html
+│   ├── index.html
 ├── en/home
-│   ├── home-es.html
+│   ├── index.html
