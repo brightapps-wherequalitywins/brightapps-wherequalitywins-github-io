@@ -1,3 +1,4 @@
+/* *{outline: 1px solid red;} */
 .main-container {
     font-family: 'Barlow Condensed';
     color: #4d4d4d;
@@ -133,6 +134,33 @@
     text-align: center;
 }
 
+.main-container .content-container.automation-needed-container .section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.main-container .content-container.automation-needed-container .section-title img{
+    width: 34px;
+    height: 34px;
+}
+
+.main-container .content-container.automation-needed-container .section-wrapper{
+    display: flex;
+    column-gap: 10px;
+}
+
+.main-container .content-container.automation-needed-container .section-icon img,
+.main-container .content-container.automation-needed-container .section-icon{
+    width: 28px;
+    height: 28px;
+}
+
+.main-container .content-container.automation-needed-container .section-info p{
+    text-align: unset;
+}
+
 .main-container .content-container.contact-us-container h2,
 .main-container .content-container.contact-us-container h3,
 .main-container .content-container.contact-us-container .social-icons i {
@@ -173,6 +201,29 @@
     gap: 1rem;
     font-size: 1.125rem;
     margin-top: 35px;
+}
+
+.main-container .content-container.about-us-container h2,
+.main-container .content-container.about-us-container h3{
+    color: #243854;
+    text-align: center;
+
+}
+
+.main-container .content-container.about-us-container .vr {
+    color: #243854;
+    opacity: 1;
+    padding: 0;
+    width: 2px;
+    margin: 0 18px;
+}
+
+.main-container .content-container.about-us-container p,
+.main-container .content-container.about-us-container a {
+    color: #243854;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .main-container .content-container.info-container p {

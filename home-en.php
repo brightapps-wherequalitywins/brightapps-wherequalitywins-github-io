@@ -34,15 +34,15 @@
                     </div>
                     <div class="col-12 d-flex flex-column flex-lg-column justify-content-center text-container">
                         <div class="text text-slogan align-self-center mb-3">
-                            <p class="swift-up-text">Maximizing your business potential through custom automation solutions</p>
+                            <p class="swift-up-text">We Maximize your business potential through our custom automation solutions</p>
                         </div>
                         <div class="text text-slogan-description align-self-center break-br">
                             <p>
-                                At Bright Apps LLC, we take pride in being an Argentina-based QA automation solutions company <br>
-                                with over 15 years of qualified experience.
-                                <br><br>
-                                Our team holds PMO and ISTQB international certifications, ensuring the highest <br>
-                                standards in quality assurance practices.
+                                Unlock faster and more reliable software delivery with our custom automation frameworks. <br>
+                                From code commits to final deployments, we streamline your testing processes and ensure robust quality.
+                                <br> <br>
+                                Our comprehensive testing across UI, API, and performance, combined with real-time monitoring and <br>
+                                tailored test suites, provides the insights you need for confident and flawless releases every time.
                             </p>
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                                         <div class="col-12 col-lg-4 align-content-center">
                                             <h3>Automation Framework Development and Implementation:</h3>
                                             <p>
-                                                We design and develop and implement customized automation frameworks tailored to your specific needs. Our frameworks ensure seamless integration with your development process, enhancing the efficiency and reliability of your software testing.
+                                                We design, and develop and implement customized automation frameworks tailored to your specific needs. Our frameworks ensure seamless integration with your development process, enhancing the efficiency and reliability of your software testing.
                                             </p>
                                         </div>
                                         <div class="col-12 col-lg-4 align-content-center text-center text-lg-start">
@@ -210,6 +210,98 @@
                 </div>
             </div>
         </div>
+        <div class="container-fluid py-4 content-container automation-needed-container" style="background-color: #fff;">
+            <div class="container">
+                <div class="row justify-content-center pb-3">
+                    <div class="col-12 text-center">
+                        <div class="section-title">
+                            <img src="/assets/img/manage.png" alt="">
+                            <h2>When is Automation Testing Needed?</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center py-1">
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/clock.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>When testing time is limited:</h3>
+                            <p>In fast-paced environments, automation delivers comprehensive testing without delaying timelines.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/brainstorming.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>When manual testing is too time-intensive:</h3>
+                            <p>Manual tests can slow down releases and extend time-to-market, while automation speeds up this process.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center py-1">
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/dollar.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>When budget efficiency is essential:</h3>
+                            <p>Automation optimizes QA processes, reducing costs while enhancing quality.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/data.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>When test scenarios are complex:</h3>
+                            <p>Automation covers intricate scenarios, minimizing the risk of undetected issues that may affect customer security.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center py-1">
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/design-tool.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>When regression testing is demanding:</h3>
+                            <p>Automation enables frequent regression tests, ensuring new releases don’t disrupt existing functionality.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/test.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>When tasks are highly repetitive:</h3>
+                            <p>Repetitive actions like data validation, account operations, and form submissions can be automated, allowing testers to focus on strategic work.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center py-1">
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/system.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>When test results need consistency:</h3>
+                            <p>Automation delivers reliable, consistent test outcomes, supporting a high-quality product experience.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/analytics.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>When software architecture is complex:</h3>
+                            <p>Automated testing is crucial for systems with multiple integrations, helping validate accuracy across components like APIs, databases, and microservices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container-fluid py-4 content-container info-container" style="background-color: #aad9d9;">
             <div class="container">
                 <div class="row justify-content-center mb-4">
@@ -331,6 +423,25 @@
                             <a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i> /brightApps</a>
                             <a href="https://twitter.com/"><i class="bi bi-twitter-x"></i> @bApps</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-4 content-container about-us-container" style="background-color: #aad9d9;">
+            <div class="container">
+                <div class="row align-content-center">
+                    <div class="col-12 col-lg-4 offset-lg-2 mb-lg-0 mb-5 align-content-center">
+                        <h2>ABOUT US</h2>
+                    </div>
+                    <div class="vr d-none d-lg-block"></div>
+                    <div class="col-12 col-lg-4">
+                        <h3>We are an Argentina-based QA automation solutions company with over 15 years of dedicated experience.</h3>
+                        <p>
+                            Driven by our passion for quality, our
+                            team holds PMO and ISTQB certifications, upholding the highest standards in quality assurance. We strive for your complete satisfaction,
+                            ensuring that our success aligns with yours. As enthusiasts of AI, we continually push the boundaries to create innovative, reliable
+                            automation solutions that truly make a difference.
+                        </p>
                     </div>
                 </div>
             </div>

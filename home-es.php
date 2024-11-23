@@ -19,7 +19,7 @@
 <body>
     <div class="main-container container-fluid px-0">
         <div class="language-button-wrapper">
-            <a href="/es/home" class="language-button">
+            <a href="/en/home" class="language-button">
                 <span>English</span>
                 <img src="/assets/img/english.png" alt="">
             </a>
@@ -210,6 +210,98 @@
                 </div>
             </div>
         </div>
+        <div class="container-fluid py-4 content-container automation-needed-container" style="background-color: #fff;">
+            <div class="container">
+                <div class="row justify-content-center pb-3">
+                    <div class="col-12 text-center">
+                        <div class="section-title">
+                            <img src="/assets/img/manage.png" alt="">
+                            <h2>¿Cuándo es necesaria la automatización de pruebas?</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center py-1">
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/clock.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>Cuando el tiempo de prueba es limitado:</h3>
+                            <p>En entornos de ritmo acelerado, la automatización permite realizar pruebas completas sin retrasar los plazos.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/brainstorming.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>Cuando las pruebas manuales son demasiado intensas:</h3>
+                            <p>Las pruebas manuales pueden ralentizar los lanzamientos y extender el tiempo de salida al mercado, mientras que la automatización acelera este proceso.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center py-1">
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/dollar.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>Cuando la eficiencia del presupuesto es esencial:</h3>
+                            <p>La automatización optimiza los procesos de QA, reduciendo costos y mejorando la calidad notablemente.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/data.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>Cuando los escenarios de prueba son complejos:</h3>
+                            <p>La automatización cubre escenarios intrincados, minimizando el riesgo de problemas no detectados que puedan afectar la seguridad del usuario final.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center py-1">
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/design-tool.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>Cuando las pruebas de regresión son exigentes:</h3>
+                            <p>La automatización permite realizar pruebas de regresión frecuentes, asegurando que los nuevos lanzamientos no alteren la funcionalidad existente.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/test.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>Cuando las tareas son altamente repetitivas:</h3>
+                            <p>Acciones repetitivas como la validación de datos, operaciones de cuenta y envío de formularios pueden automatizarse, permitiendo que los testers se concentren en trabajos estratégicos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center py-1">
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/system.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>Cuando los resultados de las pruebas necesitan consistencia:</h3>
+                            <p>La automatización ofrece resultados de prueba confiables y consistentes, apoyando una experiencia de producto de alta calidad.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 section-wrapper">
+                        <div class="section-icon">
+                            <img src="/assets/img/analytics.png">
+                        </div>
+                        <div class="section-info">
+                            <h3>Cuando la arquitectura del software es compleja:</h3>
+                            <p>Las pruebas automatizadas son cruciales para sistemas con múltiples integraciones, ayudando a validar la precisión entre componentes como APIs, bases de datos y microservicios.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container-fluid py-4 content-container info-container" style="background-color: #aad9d9;">
             <div class="container">
                 <div class="row justify-content-center mb-4">
@@ -331,6 +423,24 @@
                             <a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i> /brightApps</a>
                             <a href="https://twitter.com/"><i class="bi bi-twitter-x"></i> @bApps</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-4 content-container about-us-container" style="background-color: #aad9d9;">
+            <div class="container">
+                <div class="row align-content-center">
+                    <div class="col-12 col-lg-4 offset-lg-2 mb-lg-0 mb-5 align-content-center">
+                        <h2>SOBRE NOSOTROS</h2>
+                    </div>
+                    <div class="vr d-none d-lg-block"></div>
+                    <div class="col-12 col-lg-4">
+                        <h3>Maximizamos el potencial de tu negocio a través de nuestras soluciones de automatización.</h3>
+                        <p>
+                            Genera entregas de software más rápidas y confiables con nuestros frameworks de automatización. Desde los cambios de código hasta los despliegues finales,
+                            optimizamos tus procesos de pruebas y aseguramos una calidad sólida. La combinación de nuestras pruebas integrales en UI, API y performance, con el monitoreo
+                            de las ejecuciones y suites de prueba personalizadas para tu producto, te ofrecen lo esencial para lanzamientos seguros y sin errores
+                        </p>
                     </div>
                 </div>
             </div>
