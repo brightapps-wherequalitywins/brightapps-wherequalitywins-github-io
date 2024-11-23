@@ -34,15 +34,11 @@
                     </div>
                     <div class="col-12 d-flex flex-column flex-lg-column justify-content-center text-container">
                         <div class="text text-slogan align-self-center mb-3">
-                            <p class="swift-up-text">Maximizamos el potencial de tu negocio a través de soluciones de automatización a medida</p>
+                            <p class="swift-up-text">Maximizamos el potencial de tu negocio a través de nuestras soluciones de automatización</p>
                         </div>
                         <div class="text text-slogan-description align-self-center break-br">
                             <p>
-                                En Bright Apps LLC, nos enorgullece ser una empresa Argentina de soluciones de automatización de pruebas <br>
-                                con más de 15 años de experiencia calificada.
-                                <br><br>
-                                Nuestro equipo cuenta con certificaciones internacionales PMO e ISTQB, lo que garantiza los más altos <br>
-                                estándares en prácticas de aseguramiento de la calidad.
+                                Genera entregas de software más rápidas y confiables con nuestros frameworks de automatización. Desde los cambios de código hasta los despliegues finales, optimizamos tus procesos de pruebas y aseguramos una calidad sólida. La combinación de nuestras pruebas integrales en UI, API y performance, con el monitoreo de las ejecuciones y suites de prueba personalizadas para tu producto, te ofrecen lo esencial para lanzamientos seguros y sin errores
                             </p>
                         </div>
                     </div>
@@ -215,7 +211,6 @@
                 <div class="row justify-content-center pb-3">
                     <div class="col-12 text-center">
                         <div class="section-title">
-                            <img src="/assets/img/manage.png" alt="">
                             <h2>¿Cuándo es necesaria la automatización de pruebas?</h2>
                         </div>
                     </div>
@@ -226,7 +221,7 @@
                             <img src="/assets/img/clock.png">
                         </div>
                         <div class="section-info">
-                            <h3>Cuando el tiempo de prueba es limitado:</h3>
+                            <h3>Cuando el tiempo de prueba es limitado</h3>
                             <p>En entornos de ritmo acelerado, la automatización permite realizar pruebas completas sin retrasar los plazos.</p>
                         </div>
                     </div>
@@ -235,7 +230,7 @@
                             <img src="/assets/img/brainstorming.png">
                         </div>
                         <div class="section-info">
-                            <h3>Cuando las pruebas manuales son demasiado intensas:</h3>
+                            <h3>Cuando las pruebas manuales son demasiado intensas</h3>
                             <p>Las pruebas manuales pueden ralentizar los lanzamientos y extender el tiempo de salida al mercado, mientras que la automatización acelera este proceso.</p>
                         </div>
                     </div>
@@ -246,7 +241,7 @@
                             <img src="/assets/img/dollar.png">
                         </div>
                         <div class="section-info">
-                            <h3>Cuando la eficiencia del presupuesto es esencial:</h3>
+                            <h3>Cuando la eficiencia del presupuesto es esencial</h3>
                             <p>La automatización optimiza los procesos de QA, reduciendo costos y mejorando la calidad notablemente.</p>
                         </div>
                     </div>
@@ -255,7 +250,7 @@
                             <img src="/assets/img/data.png">
                         </div>
                         <div class="section-info">
-                            <h3>Cuando los escenarios de prueba son complejos:</h3>
+                            <h3>Cuando los escenarios de prueba son complejos</h3>
                             <p>La automatización cubre escenarios intrincados, minimizando el riesgo de problemas no detectados que puedan afectar la seguridad del usuario final.</p>
                         </div>
                     </div>
@@ -266,7 +261,7 @@
                             <img src="/assets/img/design-tool.png">
                         </div>
                         <div class="section-info">
-                            <h3>Cuando las pruebas de regresión son exigentes:</h3>
+                            <h3>Cuando las pruebas de regresión son exigentes</h3>
                             <p>La automatización permite realizar pruebas de regresión frecuentes, asegurando que los nuevos lanzamientos no alteren la funcionalidad existente.</p>
                         </div>
                     </div>
@@ -275,7 +270,7 @@
                             <img src="/assets/img/test.png">
                         </div>
                         <div class="section-info">
-                            <h3>Cuando las tareas son altamente repetitivas:</h3>
+                            <h3>Cuando las tareas son altamente repetitivas</h3>
                             <p>Acciones repetitivas como la validación de datos, operaciones de cuenta y envío de formularios pueden automatizarse, permitiendo que los testers se concentren en trabajos estratégicos.</p>
                         </div>
                     </div>
@@ -286,7 +281,7 @@
                             <img src="/assets/img/system.png">
                         </div>
                         <div class="section-info">
-                            <h3>Cuando los resultados de las pruebas necesitan consistencia:</h3>
+                            <h3>Cuando los resultados de las pruebas necesitan consistencia</h3>
                             <p>La automatización ofrece resultados de prueba confiables y consistentes, apoyando una experiencia de producto de alta calidad.</p>
                         </div>
                     </div>
@@ -295,7 +290,7 @@
                             <img src="/assets/img/analytics.png">
                         </div>
                         <div class="section-info">
-                            <h3>Cuando la arquitectura del software es compleja:</h3>
+                            <h3>Cuando la arquitectura del software es compleja</h3>
                             <p>Las pruebas automatizadas son cruciales para sistemas con múltiples integraciones, ayudando a validar la precisión entre componentes como APIs, bases de datos y microservicios.</p>
                         </div>
                     </div>
@@ -430,17 +425,14 @@
         <div class="container-fluid py-4 content-container about-us-container" style="background-color: #aad9d9;">
             <div class="container">
                 <div class="row align-content-center">
-                    <div class="col-12 col-lg-4 offset-lg-2 mb-lg-0 mb-5 align-content-center">
-                        <h2>SOBRE NOSOTROS</h2>
+                    <div class="col-12 col-lg-4 offset-lg-2 mb-lg-0 mb-5">
+                        <p>
+                            Somos una empresa de soluciones de automatización de pruebas de calidad con sede en Argentina y más de 15 años de experiencia dedicada. Impulsados por nuestra pasión por la calidad, nuestro equipo cuenta con certificaciones PMO e ISTQB, manteniendo los más altos estándares en aseguramiento de la calidad. Nos esforzamos por lograr tu completa satisfacción, asegurando que nuestro éxito esté alineado con el tuyo. Como entusiastas de la IA, impulsamos continuamente los límites para crear soluciones de automatización innovadoras y confiables que realmente marcan la diferencia.
+                        </p>
                     </div>
                     <div class="vr d-none d-lg-block"></div>
-                    <div class="col-12 col-lg-4">
-                        <h3>Maximizamos el potencial de tu negocio a través de nuestras soluciones de automatización.</h3>
-                        <p>
-                            Genera entregas de software más rápidas y confiables con nuestros frameworks de automatización. Desde los cambios de código hasta los despliegues finales,
-                            optimizamos tus procesos de pruebas y aseguramos una calidad sólida. La combinación de nuestras pruebas integrales en UI, API y performance, con el monitoreo
-                            de las ejecuciones y suites de prueba personalizadas para tu producto, te ofrecen lo esencial para lanzamientos seguros y sin errores
-                        </p>
+                    <div class="col-12 col-lg-4 align-content-center">
+                        <h2>SOBRE NOSOTROS</h2>
                     </div>
                 </div>
             </div>

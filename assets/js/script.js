@@ -1,12 +1,27 @@
 setTimeout(() => {
     const swiftUpElements = document.querySelectorAll('.swift-up-text');
+    let white_words = ["Maximize", "potential", "custom", "automation", "solutions", "Maximizamos", "tu", "negocio", "soluciones", "de", "automatización"];
+    let de_word_index = 0;
     swiftUpElements.forEach(elem => {
         const words = elem.textContent.split(' ');
         elem.style.visibility = 'visible';
         elem.innerHTML = '';
 
         words.forEach((el, index) => {
-            words[index] = `<span><i>${words[index]}</i></span>`;
+            if (white_words.includes(words[index])) {
+                if(words[index] == "de" && de_word_index < 2){
+                    de_word_index++
+                    words[index] = `<span><i>${words[index]}</i></span>`;
+                }else if(de_word_index == 2){
+                    console.log(de_word_index);
+                    words[index] = `<span class="white-word"><i>${words[index]}</i></span>`;
+                }else{
+                    words[index] = `<span class="white-word"><i>${words[index]}</i></span>`;
+                }
+            }else{
+                words[index] = `<span><i>${words[index]}</i></span>`;
+            }
+            
         });
 
         elem.innerHTML = words.join(' ');

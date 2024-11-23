@@ -1,4 +1,3 @@
-/* *{outline: 1px solid red;} */
 .main-container {
     font-family: 'Barlow Condensed';
     color: #4d4d4d;
@@ -54,12 +53,19 @@
 }
 
 .main-container .header-container .text-container .text.text-slogan {
-    font-size: 2.5rem;
-    line-height: 44px;
+    font-size: 5rem;
+    line-height: normal;
     font-style: italic;
     font-weight: 600;
     color: #aad9d9;
-    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container .header-container .text-container .text.text-slogan .white-word{
+    color: #fff;
 }
 
 .main-container .header-container .text-container .text.text-slogan p {
@@ -73,12 +79,11 @@
 .main-container .header-container .text-container .text.text-slogan .swift-up-text span {
     display: inline-block;
     overflow: hidden;
-    animation: .3s swift-up ease-in-out forwards;
 }
 
 .main-container .header-container .text-container .text.text-slogan .swift-up-text i {
     position: relative;
-    top: 35px;
+    top: 75px;
     animation: .5s swift-up ease-in-out forwards;
 }
 
@@ -86,7 +91,7 @@
 .main-container .header-container .text-container .text.text-slogan::after {
     content: "\2022\00A0\2022\00A0\2022\00A0\2022";
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     letter-spacing: 4px;
 }
 
@@ -109,7 +114,6 @@
 .main-container .content-container p {
     font-size: 1.125rem;
     line-height: 1.5;
-    text-align: justify;
 }
 
 .main-container .content-container.tech-stack-container .tech-stack-box {
@@ -280,6 +284,7 @@
 
     .main-container .header-container .text-container .text.text-slogan {
         width: 100%;
+        font-size: 2.5rem;
     }
 
     .main-container .header-container .text-container .text.text-slogan-description {
