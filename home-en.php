@@ -428,13 +428,13 @@
         <div class="container-fluid py-4 content-container about-us-container" style="background-color: #aad9d9;">
             <div class="container">
                 <div class="row align-content-center">
-                    <div class="col-12 col-lg-4 offset-lg-2 mb-lg-0 mb-5 ">
+                    <div class="col-12 col-lg-4 offset-lg-2 mb-lg-0 mb-0 order-lg-0 order-1">
                         <p>
                             We are an Argentina-based QA automation solutions company with over 15 years of dedicated experience. Driven by our passion for quality, our team holds PMO and ISTQB certifications, upholding the highest standards in quality assurance. We strive for your complete satisfaction, ensuring that our success aligns with yours. As enthusiasts of AI, we continually push the boundaries to create innovative, reliable automation solutions that truly make a difference.
                         </p>
                     </div>
                     <div class="vr d-none d-lg-block"></div>
-                    <div class="col-12 col-lg-4 align-content-center">
+                    <div class="col-12 col-lg-4 align-content-center order-lg-1 order-0">
                         <h2>ABOUT US</h2>
                     </div>
                 </div>

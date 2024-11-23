@@ -425,13 +425,13 @@
         <div class="container-fluid py-4 content-container about-us-container" style="background-color: #aad9d9;">
             <div class="container">
                 <div class="row align-content-center">
-                    <div class="col-12 col-lg-4 offset-lg-2 mb-lg-0 mb-5">
+                    <div class="col-12 col-lg-4 offset-lg-2 mb-lg-0 mb-0 order-lg-0 order-1">
                         <p>
                             Somos una empresa de soluciones de automatización de pruebas de calidad con sede en Argentina y más de 15 años de experiencia dedicada. Impulsados por nuestra pasión por la calidad, nuestro equipo cuenta con certificaciones PMO e ISTQB, manteniendo los más altos estándares en aseguramiento de la calidad. Nos esforzamos por lograr tu completa satisfacción, asegurando que nuestro éxito esté alineado con el tuyo. Como entusiastas de la IA, impulsamos continuamente los límites para crear soluciones de automatización innovadoras y confiables que realmente marcan la diferencia.
                         </p>
                     </div>
                     <div class="vr d-none d-lg-block"></div>
-                    <div class="col-12 col-lg-4 align-content-center">
+                    <div class="col-12 col-lg-4 align-content-center order-lg-1 order-0">
                         <h2>SOBRE NOSOTROS</h2>
                     </div>
                 </div>
