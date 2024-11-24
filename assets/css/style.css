@@ -284,7 +284,8 @@
 
     .main-container .header-container .text-container .text.text-slogan {
         width: 100%;
-        font-size: 3.5rem;
+        font-size: 3rem;
+        line-height: 1;
     }
 
     .break-br br {
