@@ -287,10 +287,6 @@
         font-size: 2.5rem;
     }
 
-    .main-container .header-container .text-container .text.text-slogan-description {
-        text-align: justify;
-    }
-
     .break-br br {
         display: none;
     }
